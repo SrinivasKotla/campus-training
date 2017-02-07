@@ -1,0 +1,37 @@
+import java.util.Scanner;
+import java.io.*;
+public class TriangleSum{
+
+static int max(int a,int b){
+return a>b?a:b ;
+}
+
+static int maxAdjSum(int array[][], int row, int col){
+int maxSum;
+if(row == 98){
+	maxSum = array[row][col] + max(array[row+1][col],array[row+1][col+1]);
+	}
+else{
+	maxSum = array[row][col] + max( maxAdjSum(array,row+1,col), maxAdjSum(array,row+1,col+1));
+	}
+return maxSum;
+}
+public static void main(String [] args) throws IOException{
+	   Scanner s = new Scanner(new File("Triangle.txt"));
+	   int array[][] = new int[100][];
+		for(int i=0;i<100;i++){
+		     array[i] = new int[i+1];
+		}
+	   	
+		for(int i=0;i<100;i++){
+			for(int j=0;j<=i;j++){
+				array[i][j] = s.nextInt();
+			}
+		}
+		
+		int Sum = maxAdjSum(array,0,0);
+		System.out.println(Sum);
+		
+	}
+}
+

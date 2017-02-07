@@ -1,0 +1,15 @@
+import java.util.Arrays;
+public class TestBook {
+	public static void main(String [] args) {
+		Author authors[] = new Author[2];
+		authors[0] = new Author("G k Rowling", "gkrowling@xyz.com" , 'f');
+		authors[1] = new Author("Emma Watson", "emmawatson@abc.com", 'f');
+
+		Book potter = new Book("Harry Potter", authors, 999.99, 99);
+		System.out.println(potter);
+
+
+		//System.out.println("Author is: " + potter.getAuthor());
+		//System.out.println("Author name is: " + potter.getAuthor().getName());
+	}
+}

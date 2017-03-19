@@ -6,6 +6,10 @@
 	</head>
 
 	<body>
+		<div id="head">
+			<a href="">Srinivas.com</a>
+
+		</div>
 		<div id="top">
 			<ul id="menu">
 			<li><a href="index.html">Home</a></li>
@@ -15,17 +19,19 @@
 			</ul>
 		</div>
 		<div id="left">
-			<h2>Menu</h2>
+			<h2 style="font-family:"Segoe UI",Arial,sans-serif">Menu</h2>
 			<a href="">Link 1</a>
 			<a href="">Link 2</a>
 			<a href="">Link 3</a>
 		</div>
 		<div id="right">
-			<ul>
-				<li><strong>MYSELF</strong>
-					<p>My name is Srinivas. I am pursuing Electrical Engineering in IIT Bombay. My native place is Andhra 						Pradesh. I can speak Hindi, English and Telugu. I have two siblings. My father is a Goldsmith and my 						mother is a housewife.</p>
-				</li>
-				<li><strong>ACADEMICS</strong>
+		<div id="right_in">
+				<div class="myself">
+				<h3>MYSELF</h3>
+					<div style="font-family: Verdana,sans-serif;">My name is Srinivas. I am pursuing Electrical Engineering in IIT Bombay. My native place is Andhra Pradesh. I can speak Hindi, English and Telugu. I have two siblings. My father is a Goldsmith and my mother is a housewife.I have a lot hobbies. I play cricket, read books, cook. I am also a good dancer. Coming to my strengths and weakness, perseverence and hardworking are the things I regard as my strong areas. If I talk about my weakness, I cannot focus for long periods. I have a good amount of humour within me.  </div>
+				</div>
+				<div class="myself">
+				<h3>ACADEMICS</h3>
 				<tboby>
 					<table border="1px">
 					<tr>
@@ -50,26 +56,43 @@
 					</tr>
 					</table>
 				</tbody>
-				</li>
-				<li><strong>PlACES I LIVED</strong>
-					<ul>
-						<li>TUNI</li>
-						<li>GUDIWADA</li>
-						<li>VIJAYAWADA</li>
-						<li>BOMBAY</li>		
+				</div>
+				<div class="myself">
+				<h3>PlACES I LIVED</h3>
+					<ul style="font-family:Verdana,sans-serif">
+						<li><p><strong>TUNI</strong>: It is birth place. Since my childhood I have been living. Its is 							a peaceful place to live. It is small town but beautiful. You can have a peace of mind unlike 							the heavy and busy cities.</p>
+						<figure>
+						<img src="Tuni.jpg"/>
+						<figcaption>img:A green cover on the way to my hometown.</figcaption
+						</figure>
+						</li>
+						<li><p><strong>GUDIWADA</strong>: I did my school in this place. There is a school called 							Gowtham concept school (GCS) established by Dr.KKR. It well known for its JEE coaching 							services.</p>
+						<img src="gudivada.jpg"/>
+						</li>
+						<li><p><strong>VIJAYAWADA</strong>: Vijayawada is a city on the banks of the Krishna River, in 							the Indian state of Andhra Pradesh. It is a municipal corporation and the headquarters of 							Vijayawada (urban) mandal in Krishna district of the state. The city forms a part of Andhra 							Pradesh Capital Region and the headquarters of Andhra Pradesh Capital Region Development 							Authority is located in the city.</p>
+						<img src="vijayawada.jpg"/>
+						</li>
+						<li><p><strong>BOMBAY</strong>:Mumbai, also known as Bombay, the official name until 							1995) is the capital city of the Indian state of Maharashtra. It is the most populous city in 							India and the ninth most populous agglomeration in the world, with an estimated city 							population of 18.4 million.</p>
+						<img src="mumbai.jpg"/></li>		
 					</ul>
-				</li>
-				<li><strong>SKILLS</strong>
+				</div>
+				<div class="myself">
+				<h3>SKILLS</h3>
 					<ul style="font-family:Verdana,sans-serif">
 						<li>Coding: C,C++,Java,HTML, Assembly language, Verilog</li>
 						<li>Softwares: Matlab, Keil, Quartus, LTSpice, Photoshop</li>
 						<li>DataBases: Excel, Ms-Office</li>
 					</ul>
-				</li>
-
-			</ul>
+				</div>
+		</div>
 		</div>
 		<div id="bottom">
+		<p>Contact me</p>
+		<ul>
+		<li><img src="facebook.png"/></li>
+		<li><img src="tweet.png"/></li>
+		<li><img src="gmail.png"/></li>
+		</ul>
 		</div>
 		<p></p>
 	<body>

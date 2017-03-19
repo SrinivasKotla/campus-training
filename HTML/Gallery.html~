@@ -6,6 +6,10 @@
 	</head>
 
 	<body>
+		<div id="head">
+			<a href="">Srinivas.com</a>
+
+		</div>
 		<div id="top">
 			<ul id="menu">
 			<li><a href="index.html">Home</a></li>
@@ -15,9 +19,14 @@
 			</ul>
 		</div>
 		<div id="left">
-			
+			<h2>Menu</h2>
+			<a href="">Link 1</a>
+			<a href="">Link 2</a>
+			<a href="">Link 3</a>
 		</div>
 		<div id="right">
+			<div id="right_in">
+			<h3>MY PHOTOS</h3>
 			<table>
 			<tbody>
 				<tr>
@@ -37,6 +46,7 @@
 				</tr>
 			</tbody>
 			</table>
+			</div>
 		</div>
 		<div id="bottom">
 		</div>

@@ -1,0 +1,51 @@
+/*$("#canvas").click(function(e){
+     getPosition(e); 
+});*/
+
+function point(x,y){
+	this.x = x;
+	this.y = y;
+	this.bool = bool;
+}
+var points = [];
+document.getElementById("canvas").addEventListener('click', function (event){
+	var rect = canvas.getBoundingClientRect();
+	var x = event.clientX-rect.left;
+	var y = event.clientY-rect.top;
+	var l = new Boolean();
+	var i=0;
+	while(points[i].x !=x && points[i].y !=y && points[i].bool !=true && i<points.length){
+		i++;
+	}
+	if(i!=points.length)
+		drawCoordinates(x,y);
+		var dot = new point(x,y,true);
+		points.push(point);
+	else
+		clearCoordinates(x,y)
+		points[i].bool = false;
+});
+
+function drawCoordinates(x,y){
+	var pointSize = 6;
+	var ctx = document.getElementById("canvas").getContext('2d');
+
+	ctx.fillStyle = '#000000';
+
+	ctx.beginPath();
+	ctx.arc(x,y,pointSize,0,Math.PI*2,true);
+	ctx.fill();
+}
+
+function clearCoordinates(x,y){
+	var pointSize = 6;
+	var ctx = document.getElementById("canvas").getContext('2d');
+
+	ctx.fillStyle = '#ffffff';
+
+	ctx.beginPath();
+	ctx.arc(x,y,pointSize,0,Math.PI*2,true);
+	ctx.fill();
+}
+
+

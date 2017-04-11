@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<head>
+</head>
+<html>
+	<body>
+		<canvas id="canvas" width="690" height="651" style="cursor:crosshair;background-color:#ffffff;">
+		</canvas>
+		<script src="javascript_5.js"></script>
+	</body>
+</html>
